@@ -1,0 +1,8 @@
+/* Layout: a "linha de metrô" das etapas ocupa a largura toda; cada assunto abre na própria página. */
+.page {
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: calc(24px + env(safe-area-inset-top, 0px)) calc(40px + env(safe-area-inset-bottom, 0px));
+}
+
+.main { min-width: 0; padding-top: 8px; }
